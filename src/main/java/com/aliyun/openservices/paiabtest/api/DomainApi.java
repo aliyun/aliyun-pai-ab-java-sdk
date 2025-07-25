@@ -32,6 +32,7 @@ public class DomainApi extends  BaseApi{
             if ("Random".equals(item.getBucketType())) {
                 domain.setBucketType(Constants.DomainBucketTypeRand);
                 domain.setExperimentFlow(item.getFlow().intValue());
+                domain.setBuckets(item.getBuckets());
             } else if ("Condition".equals(item.getBucketType())) {
                 domain.setBucketType(Constants.DomainBucketTypeCond);
                 domain.setFilter(item.getCondition());

@@ -7,7 +7,7 @@ Java sdk for PAI-ABTest  server. Aliyun product docoment [link](https://help.ali
 <dependency>
   <groupId>com.aliyun.openservices.aiservice</groupId>
   <artifactId>pai-abtest-sdk</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.2</version>
 </dependency>
 ```
 
@@ -67,5 +67,8 @@ public class ExperimentTest {
 
 
 ## Version Release Notes 
+1.0.2 (2025-06-30)
+* Fix domain buckets fetch error 
+ 
 1.0.0 (2024-07-26) 
 * Initial release
